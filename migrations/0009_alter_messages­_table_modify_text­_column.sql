@@ -1,0 +1,4 @@
+USE wave_friend2;
+
+ALTER TABLE messages
+MODIFY COLUMN text TEXT NOT NULL;

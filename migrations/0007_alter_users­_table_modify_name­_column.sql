@@ -1,0 +1,4 @@
+USE wave_friend2;
+
+ALTER TABLE users
+MODIFY COLUMN bio TEXT NOT NULL;

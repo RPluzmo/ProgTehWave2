@@ -21,7 +21,7 @@ def generate_sql_migrations():
         f.write(db_create_sql)
     print(f"  -> Izveidots DB bāzes fails: {db_file_path}")
 
-    # 2. Lasām Excel failus
+    # 2. Lasām Excel failus 
     excel_faili = sorted(glob.glob("*.xlsx"))
     if not excel_faili:
         print("Kļūda: Nav atrasts neviens .xlsx fails!")

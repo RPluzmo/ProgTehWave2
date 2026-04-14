@@ -1,0 +1,4 @@
+USE wave_friend2;
+
+ALTER TABLE users
+MODIFY COLUMN name VARCHAR(100) NOT NULL;
